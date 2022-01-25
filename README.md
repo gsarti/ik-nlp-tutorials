@@ -6,17 +6,19 @@ These lab sessions are designed to help you follow along with the contents prese
 
 The lab sessions will be a mix of tutorials and exercises. The **tutorials** will present modern frameworks and tools to implement advanced NLP analyses and pipelines. The **exercises** are designed to teach you the skills needed for final projects. Here is a brief overview of the schedule:
 
-| Week | Lecture topic                            | Lab Tutorial                                                                      | Lab Exercise                                                                      |
-|------|------------------------------------------|-------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
-| 1    | Introduction to NLP                      | [Intro, Setup work environment and team creation](README.md)    | -                                                                             |
-| 2    | The Evolution of Language Modeling       | [Intro to 🤗 Transformers and Datasets](notebooks/W2T_Intro_Transformers_Datasets.ipynb) | [🤗 Pipelines & Sentence Transformers for semantic search and QA](notebooks/W2E_Pipelines_Sentence_Transformers.ipynb)      |
-| 3    | Looking for Words                        | [Introduction to spaCy](notebooks/W3T_Intro_Spacy.ipynb)                                | [Training a lexicon-based transduction model](notebooks/W3E_Lexicon_Transduction.ipynb) |
-| 4    | Labeling Sequences                       | [Text tagging with spaCy and 🤗 Transformers](notebooks/W4T_Text_Tagging.ipynb)           | [Non-textual information for NLP](notebooks/W4E_NonTextual_Information.ipynb)           |
-| 5    | Trees of Words                           | [Dependency parsing with spaCy](notebooks/W5T_Dependency_Parsing.ipynb)                 | -                                                                             |
-| 6    | Encode and Decode                        | **Optional**: Training with 🤗 Transformers                                    | -                                                                             |
-| 7    | Transfer Learning & Opening the Blackbox | -                                                                             | -                                                                             |
+| Week | Lecture topic    | Lab Tutorial                                                 | Lab Exercise | Assignments |
+|------|------------------|--------------------------------------------------------------|--------------|-------------|
+| 1 | Introduction to NLP | [Intro, Setup work environment and team creation](README.md) | -            | - Answer questionnaire |
+| 2 | The Evolution of Language Modeling | [Intro to 🤗 Transformers and Datasets](notebooks/W2T_Intro_Transformers_Datasets.ipynb) | [🤗 Pipelines & Sentence Transformers for semantic search and QA](notebooks/W2E_Pipelines_Sentence_Transformers.ipynb) | - `[A]` Count FFNN parameters <br/> - `[E]` 1 and 2 (3 optional) |
+| 3 | Looking for Words   | [Introduction to spaCy](notebooks/W3T_Intro_Spacy.ipynb)     | [Training a BPE tokenizer and a lexicon-based transduction model](notebooks/W3E_BPE_Transduction.ipynb) | - `[A]` Create Regexes <br/> - `[A]` SLP Exercises on LM <br/> - `[E]` 1 (2 optional) |
+| 4 | Labeling Sequences  | [Text tagging with spaCy and 🤗 Transformers](notebooks/W4T_Text_Tagging.ipynb) | [Non-textual information for NLP](notebooks/W4E_NonTextual_Information.ipynb) | - `[A]` Find wrong POS tags, implement most-frequent tagger<br/> - `[A]` calculate hmm-viterbi, viterbi complexity <br/> - `[E]` 1 (2 optional) |
+| 5 | Trees of Words      | [Dependency parsing with spaCy](notebooks/W5T_Dependency_Parsing.ipynb) | - | - `[A]` parsing eval compute UAS/LAS <br/> - `[A]` transition parser steps, crossing arcs 
+| 6 | Encode and Decode   | **Optional**: Training with 🤗 Transformers | - |
+| 7 | Transfer Learning & Opening the Blackbox | -       | -       |
 
 Some notes:
+
+- The `[A]` tag in the Assignments column indicate a written assignment that you should complete. The `[E]` tag indicates an exercise in that week's exercise notebook that you should complete. All assignments and exercises that are not marked as optional are mandatory for the midterm portfolio.
 
 - The core contents are covered in the first few weeks of the course to kickstart your work. Exercise sessions are dropped from week 5 onwards to allow you to focus on the final project.
 
