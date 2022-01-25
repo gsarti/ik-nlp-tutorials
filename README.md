@@ -2,9 +2,9 @@
 
 These lab sessions are designed to help you follow along with the contents presented during the lectures, and introduce you to the skills and tools needed to complete the final projects.
 
-### What to expect?
+## What to expect?
 
-The lab sessions will be a mixture of tutorials and exercises. The **tutorials** will present modern frameworks and tools to implement advanced NLP analyses and pipelines. The **exercises** are designed to teach you the skills needed for final projects. Here is a brief overview of the schedule:
+The lab sessions will be a mix of tutorials and exercises. The **tutorials** will present modern frameworks and tools to implement advanced NLP analyses and pipelines. The **exercises** are designed to teach you the skills needed for final projects. Here is a brief overview of the schedule:
 
 | Week | Lecture topic                            | Lab Tutorial                                                                      | Lab Exercise                                                                      |
 |------|------------------------------------------|-------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
@@ -24,7 +24,7 @@ Some notes:
 
 - The tutorial session for week 6 can be relevant to many project and will be covered upon request.
 
-### Tools and Frameworks
+## Tools and Frameworks
 
 The lab sessions make use of the [Jupyter](https://jupyter.org/) environment. You can use the following links to get started:
 
@@ -55,10 +55,10 @@ pip install -r requirements.txt
 
 Make sure the virtual environment is activated before running Jupyter. If you are using Colab, simply run the cell at the beginning of each notebook to install the required packages. Refer to [Using a Python Virtual Environment](https://huggingface.co/course/chapter0/1#using-a-python-virtual-environment) for more details on how to create and activate a virtual environment.
 
-### About us
+## About us
 
 [**Arianna Bisazza**](https://www.cs.rug.nl/~bisazza/) is an Assistant Professor in Computational Linguistics and Natural Language Processing at the [Computational Linguistics Group](https://www.rug.nl/research/clcg/research/cl/) of the University of Groningen. She is passionate about the statistical modeling of languages, particularly in a multilingual context, and her long-term goal is to design robust NLP algorithms that can adapt to the large variety of linguistic phenomena observed around the world. She is part of the Dutch consortium [InDeep: Interpreting Deep Learning Models for Text and Sound](https://interpretingdl.github.io/), leading the work package on interpretability for neural machine translation.
 
-[**Gabriele Sarti**](https://gsarti.com) is a doctoral researcher at the [Computational Linguistics Group](https://www.rug.nl/research/clcg/research/cl/) of the University of Groningen. He is part of the consortium [InDeep](https://interpretingdl.github.io/), working on interpretability for neural machine translation. His research focuses on interpretability for NLP models, in particular to the benefit of end-users and by leveraging human behavioral signals.
+[**Gabriele Sarti**](https://gsarti.com) is a doctoral researcher at the [Computational Linguistics Group](https://www.rug.nl/research/clcg/research/cl/) of the University of Groningen. He is part of the consortium [InDeep](https://interpretingdl.github.io/), working on interpretability for neural machine translation. His research focuses on interpretability for sequence-to-sequence NLP models, in particular from a user-centric perspective and by leveraging human behavioral signals.
 
 [**Anjali Nair**](https://nl.linkedin.com/in/anjalinair012) is a MSc candidate in AI at the University of Groningen. *To be completed.*
