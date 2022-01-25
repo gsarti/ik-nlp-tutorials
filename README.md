@@ -9,7 +9,7 @@ The lab sessions will be a mix of tutorials and exercises. The **tutorials** wil
 | Week | Lecture topic                            | Lab Tutorial                                                                      | Lab Exercise                                                                      |
 |------|------------------------------------------|-------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
 | 1    | Introduction to NLP                      | [Intro, Setup work environment and team creation](README.md)    | -                                                                             |
-| 2    | The Evolution of Language Modeling       | [Intro to 🤗 Transformers and Datasets](notebooks/W2T_Intro_Transformers_Datasets.ipynb) | [🤗 Pipelines for semantic similarity search and QA](notebooks/W2E_Pipelines.ipynb)      |
+| 2    | The Evolution of Language Modeling       | [Intro to 🤗 Transformers and Datasets](notebooks/W2T_Intro_Transformers_Datasets.ipynb) | [🤗 Pipelines & Sentence Transformers for semantic search and QA](notebooks/W2E_Pipelines_Sentence_Transformers.ipynb)      |
 | 3    | Looking for Words                        | [Introduction to spaCy](notebooks/W3T_Intro_Spacy.ipynb)                                | [Training a lexicon-based transduction model](notebooks/W3E_Lexicon_Transduction.ipynb) |
 | 4    | Labeling Sequences                       | [Text tagging with spaCy and 🤗 Transformers](notebooks/W4T_Text_Tagging.ipynb)           | [Non-textual information for NLP](notebooks/W4E_NonTextual_Information.ipynb)           |
 | 5    | Trees of Words                           | [Dependency parsing with spaCy](notebooks/W5T_Dependency_Parsing.ipynb)                 | -                                                                             |
@@ -22,7 +22,7 @@ Some notes:
 
 - Participation to the lab sessions is **highly encouraged**, as they offer you a chance to ask questions related to the midterm portfolio and/or the final projects.
 
-- The tutorial session for week 6 can be relevant to many project and will be covered upon request.
+- The tutorial session for week 6 can be relevant to many projects and will be covered upon request.
 
 ## Tools and Frameworks
 
