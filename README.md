@@ -64,3 +64,7 @@ Make sure the virtual environment is activated before running Jupyter. If you ar
 [**Gabriele Sarti**](https://gsarti.com) is a doctoral researcher at the [Computational Linguistics Group](https://www.rug.nl/research/clcg/research/cl/) of the University of Groningen. He is part of the consortium [InDeep](https://interpretingdl.github.io/), working on interpretability for neural machine translation. His research focuses on interpretability for sequence-to-sequence NLP models, in particular from a user-centric perspective and by leveraging human behavioral signals.
 
 [**Anjali Nair**](https://nl.linkedin.com/in/anjalinair012) is a MSc candidate in AI at the University of Groningen. *To be completed.*
+
+## You see something wrong or missing?
+
+Please open as issue here on Github! This is the first year we are using these contents for the course and although most of them come from battle-tested online tutorials, we are always looking for feedback and suggestions.
