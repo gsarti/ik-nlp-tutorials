@@ -6,19 +6,17 @@ These lab sessions are designed to help you follow along with the contents prese
 
 The lab sessions will be a mix of tutorials and exercises. The **tutorials** will present modern frameworks and tools to implement advanced NLP analyses and pipelines. The **exercises** are designed to teach you the skills needed for final projects. Here is a brief overview of the schedule:
 
-| Week | Lecture topic    | Lab Tutorial                                                 | Lab Exercise | Assignments |
-|------|------------------|--------------------------------------------------------------|--------------|-------------|
-| 1 | Introduction to NLP | [Intro, Setup work environment and team creation](README.md) | -            | - Answer questionnaire |
-| 2 | The Evolution of Language Modeling | [Intro to 🤗 Transformers and Datasets](notebooks/W2T_Intro_Transformers_Datasets.ipynb) | [🤗 Pipelines & Sentence Transformers for semantic search and QA](notebooks/W2E_Pipelines_Sentence_Transformers.ipynb) | - `[A]` Count FFNN parameters <br/> - `[E]` 1 and 2 (3 optional) |
-| 3 | Looking for Words   | [Introduction to spaCy](notebooks/W3T_Intro_Spacy.ipynb)     | [Training a BPE tokenizer and a lexicon-based transduction model](notebooks/W3E_BPE_Transduction.ipynb) | - `[A]` Build Regexes <br/> - `[A]` SLP LM Exercises <br/> - `[E]` 1 (2 optional) |
-| 4 | Labeling Sequences  | [Text tagging with spaCy and 🤗 Transformers](notebooks/W4T_Text_Tagging.ipynb) | [Non-textual information for NLP](notebooks/W4E_NonTextual_Information.ipynb) | - `[A]` Find wrong POS tags, most-frequent tagger<br/> - `[A]` calculate hmm-viterbi, viterbi complexity <br/> - `[E]` 1 (2 optional) |
-| 5 | Trees of Words      | [Dependency parsing with spaCy](notebooks/W5T_Dependency_Parsing.ipynb) | - | - `[A]` parsing eval compute UAS/LAS <br/> - `[A]` transition parser steps, crossing arcs 
-| 6 | Encode and Decode   | **Optional**: Training with 🤗 Transformers | - |
+| Week | Lecture topic    | Lab Tutorial                                                 | Lab Exercise |
+|------|------------------|--------------------------------------------------------------|--------------|
+| 1 | Introduction to NLP | [Intro, Setup work environment and team creation](README.md) <br/> Start [Intro to 🤗 Transformers](notebooks/W2T_Intro_Transformers_Datasets.ipynb) | -            |
+| 2 | The Evolution of Language Modeling | [Intro to 🤗 Transformers and Datasets](notebooks/W2T_Intro_Transformers_Datasets.ipynb) | [🤗 Pipelines & Sentence Transformers for semantic search and QA](notebooks/W2E_Pipelines_Sentence_Transformers.ipynb) |
+| 3 | Looking for Words   | [Introduction to spaCy](notebooks/W3T_Intro_Spacy.ipynb)     | [Training a BPE tokenizer and a lexicon-based transduction model](notebooks/W3E_BPE_Transduction.ipynb) |
+| 4 | Labeling Sequences  | [Text tagging with spaCy and 🤗 Transformers](notebooks/W4T_Text_Tagging.ipynb) | [Combining Textual and Non-textual Features in NLP Models](notebooks/W4E_NonTextual_Information.ipynb) |
+| 5 | Trees of Words      | [Dependency parsing with spaCy](notebooks/W5T_Dependency_Parsing.ipynb) | - |
+| 6 | Encode and Decode   | **Optional**: Fine-tuning with [🤗 Transformers](https://huggingface.co/docs/transformers/custom_datasets) and [Adapters](https://docs.adapterhub.ml/training.html) | - |
 | 7 | Transfer Learning & Opening the Blackbox | -       | -       |
 
 Some notes:
-
-- The `[A]` tag in the Assignments column indicate a written assignment that you should complete. The `[E]` tag indicates an exercise in that week's exercise notebook that you should complete. All assignments and exercises that are not marked as optional are mandatory for the midterm portfolio.
 
 - The core contents are covered in the first few weeks of the course to kickstart your work. Exercise sessions are dropped from week 5 onwards to allow you to focus on the final project.
 
@@ -59,11 +57,26 @@ Make sure the virtual environment is activated before running Jupyter. If you ar
 
 ## About us
 
-[**Arianna Bisazza**](https://www.cs.rug.nl/~bisazza/) is an Assistant Professor in Computational Linguistics and Natural Language Processing at the [Computational Linguistics Group](https://www.rug.nl/research/clcg/research/cl/) of the University of Groningen. She is passionate about the statistical modeling of languages, particularly in a multilingual context, and her long-term goal is to design robust NLP algorithms that can adapt to the large variety of linguistic phenomena observed around the world. She is part of the Dutch consortium [InDeep: Interpreting Deep Learning Models for Text and Sound](https://interpretingdl.github.io/), leading the work package on interpretability for neural machine translation.
-
-[**Gabriele Sarti**](https://gsarti.com) is a doctoral researcher at the [Computational Linguistics Group](https://www.rug.nl/research/clcg/research/cl/) of the University of Groningen. He is part of the consortium [InDeep](https://interpretingdl.github.io/), working on interpretability for neural machine translation. His research focuses on interpretability for sequence-to-sequence NLP models, in particular from a user-centric perspective and by leveraging human behavioral signals.
-
-[**Anjali Nair**](https://nl.linkedin.com/in/anjalinair012) is a MSc candidate in AI at the University of Groningen. *To be completed.*
+<table>
+  <tr>
+    <td><img src="http://www.cs.rug.nl/~bisazza/fig/arianna-2020.jpg" alt="Arianna Bisazza" style="width:600px"/></td>
+      <td>
+        <a href="https://www.cs.rug.nl/~bisazza/"><b>Arianna Bisazza</b></a> is an Assistant Professor in Computational Linguistics and Natural Language Processing at the <a href="https://www.rug.nl/research/clcg/research/cl/">Computational Linguistics Group</a> of the University of Groningen. She is passionate about the statistical modeling of languages, particularly in a multilingual context, and her long-term goal is to design robust NLP algorithms that can adapt to the large variety of linguistic phenomena observed around the world. She is part of the Dutch consortium <a href="https://interpretingdl.github.io/">InDeep: Interpreting Deep Learning Models for Text and Sound</a>, leading the work package on interpretability for neural machine translation.
+      </td>
+  </tr>
+  <tr>
+    <td><img src="https://gsarti.com/authors/gsarti/avatar_hu02574c73d8d5cf0c41465216db38be2a_239118_250x250_fill_q90_lanczos_center.jpg" alt="Gabriele Sarti" style="width:600px"/></td>
+    <td>
+      <a href="https://www.cs.rug.nl/~bisazza/"><b>Gabriele Sarti</b></a> is a doctoral researcher at the <a href="https://www.rug.nl/research/clcg/research/cl/">Computational Linguistics Group</a> of the University of Groningen. of the University of Groningen. He is part of the consortium <a href="https://interpretingdl.github.io/">InDeep</a>, working on interpretability for neural machine translation. His research focuses on interpretability for sequence-to-sequence NLP models, in particular from a user-centric perspective and by leveraging human behavioral signals.
+    </td>
+  </tr>
+  <tr>
+    <td><img src="https://avatars.githubusercontent.com/u/25927244?v=4" alt="Anjali Nair" style="width:600px"/></td>
+    <td>
+      <a href="https://nl.linkedin.com/in/anjalinair012"><b>Anjali Nair</b></a> is a MSc candidate in AI at the University of Groningen. <i>To be completed.</i>
+    </td>
+  </tr>
+</table>
 
 ## You see something wrong or missing?
 
