@@ -2,15 +2,26 @@
 name = "ik-nlp-tutorials"
 version = "0.1.0"
 description = ""
-authors = ["Your Name <you@example.com>"]
+authors = [
+    "Gabriele Sarti <g.sarti@rug.nl>",
+    "Georg Groenendaal <georg.groenendaal@gmail.com>"
+]
 
+# The `transformers` version is pinned to 4.10 due to
+# simplet5 not working with newer versions as of now.
 [tool.poetry.dependencies]
 python = "^3.8"
 jupyterlab = "^3.2.9"
-transformers = "^4.16.2"
+transformers = "4.10"
 torch = "^1.10.2"
 datasets = "^1.18.3"
 sentence-transformers = "^2.1.0"
+scikit-learn = "^1.0.2"
+spacy = "^3.2.2"
+sentencepiece = "^0.1.96"
+thermostat-datasets = "^1.0.1"
+simplet5 = "^0.1.3"
+
 
 [tool.poetry.dev-dependencies]
 
