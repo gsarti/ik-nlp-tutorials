@@ -55,6 +55,8 @@ pip install -r requirements.txt
 
 Make sure the virtual environment is activated before running Jupyter. If you are using Colab, simply run the cell at the beginning of each notebook to install the required packages. Refer to [Using a Python Virtual Environment](https://huggingface.co/course/chapter0/1#using-a-python-virtual-environment) for more details on how to create and activate a virtual environment.
 
+For any troubleshooting, please consult the [FAQ](FAQ.md) before asking for help. You are encouraged to contribute to it by adding your solutions!
+
 ## About us
 
 <table>
@@ -67,13 +69,13 @@ Make sure the virtual environment is activated before running Jupyter. If you ar
   <tr>
     <td><img src="https://gsarti.com/authors/gsarti/avatar_hu02574c73d8d5cf0c41465216db38be2a_239118_250x250_fill_q90_lanczos_center.jpg" alt="Gabriele Sarti" style="width:600px"/></td>
     <td>
-      <a href="https://www.cs.rug.nl/~bisazza/"><b>Gabriele Sarti</b></a> is a doctoral researcher at the <a href="https://www.rug.nl/research/clcg/research/cl/">Computational Linguistics Group</a> of the University of Groningen. of the University of Groningen. He is part of the consortium <a href="https://interpretingdl.github.io/">InDeep</a>, working on interpretability for neural machine translation. His research focuses on interpretability for sequence-to-sequence NLP models, in particular from a user-centric perspective and by leveraging human behavioral signals.
+      <a href="https://www.cs.rug.nl/~bisazza/"><b>Gabriele Sarti</b></a> is a doctoral researcher at the <a href="https://www.rug.nl/research/clcg/research/cl/">Computational Linguistics Group</a> of the University of Groningen. He is part of the consortium <a href="https://interpretingdl.github.io/">InDeep</a>, working on interpretability for neural machine translation. His research focuses on interpretability for sequence-to-sequence NLP models, in particular from a user-centric perspective and by leveraging human behavioral signals.
     </td>
   </tr>
   <tr>
     <td><img src="https://avatars.githubusercontent.com/u/25927244?v=4" alt="Anjali Nair" style="width:600px"/></td>
     <td>
-      <a href="https://nl.linkedin.com/in/anjalinair012"><b>Anjali Nair</b></a> is a MSc candidate in AI at the University of Groningen. <i>To be completed.</i>
+      <a href="https://nl.linkedin.com/in/anjalinair012"><b>Anjali Nair</b></a> is a MSc candidate in AI at the University of Groningen.
     </td>
   </tr>
 </table>
