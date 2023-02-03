@@ -6,23 +6,21 @@ These lab sessions are designed to help you follow along with the contents prese
 
 The lab sessions will be a mix of tutorials and exercises. The **tutorials** will present modern frameworks and tools to implement advanced NLP analyses and pipelines. The **exercises** are designed to teach you the skills needed for final projects. Here is a brief overview of the schedule:
 
-| Week | Lecture topic    | Lab Tutorial                                                 | Lab Exercise |
+| Week | Lab Tutorial                                                 | Lab Exercise |
 |------|------------------|--------------------------------------------------------------|--------------|
-| 1 | Introduction to NLP | [Intro, Setup work environment and team creation](README.md) <br/> Start [Intro to 🤗 Transformers](notebooks/W2T_Intro_Transformers_Datasets.ipynb) | -            |
-| 2 | The Evolution of Language Modeling | [Intro to 🤗 Transformers and Datasets](notebooks/W2T_Intro_Transformers_Datasets.ipynb) | [🤗 Pipelines & Sentence Transformers for semantic search and QA](notebooks/W2E_Pipelines_Sentence_Transformers.ipynb) |
-| 3 | Looking for Words   | [Introduction to spaCy](notebooks/W3T_Intro_Spacy.ipynb)     | [Training a BPE tokenizer and a lexicon-based transduction model](notebooks/W3E_BPE_Transduction.ipynb) |
-| 4 | Labeling Sequences  | [Text tagging with spaCy and 🤗 Transformers](notebooks/W4T_Text_Tagging.ipynb) | [Combining Textual and Non-textual Features in NLP Models](notebooks/W4E_NonTextual_Information.ipynb) |
-| 5 | Trees of Words      | [Dependency parsing with spaCy](notebooks/W5T_Dependency_Parsing.ipynb) | - |
-| 6 | Encode and Decode   | **Optional**: Fine-tuning with [🤗 Transformers](https://huggingface.co/docs/transformers/custom_datasets) and [Adapters](https://docs.adapterhub.ml/training.html) | - |
-| 7 | Transfer Learning & Opening the Blackbox | -       | -       |
+| 1 | · [Intro, Setup work environment and team creation](README.md) <br/> · Start [Intro to 🤗 Transformers](notebooks/W2T_Intro_Transformers_Datasets.ipynb) | -            |
+| 2 | [Intro to 🤗 Transformers and Datasets](notebooks/W2T_Intro_Transformers_Datasets.ipynb) | [🤗 Pipelines & Sentence Transformers for semantic search and QA](notebooks/W2E_Pipelines_Sentence_Transformers.ipynb) |
+| 3 | [Linguistic analysis with spaCy and Stanza](notebooks/W3T_Analysis_Spacy_Stanza.ipynb)     | [Training a BPE tokenizer and a lexicon-based transduction model](notebooks/W3E_BPE_Transduction.ipynb) | 
+| 4 | · Intro to the Peregrine cluster <br/> · [Text tagging and dependency parsing with spaCy](notebooks/W4T_Tagging_Parsing.ipynb) | [Combining Textual and Non-textual Features in NLP Models](notebooks/W5E_NonTextual_Information.ipynb) |
+| 5 | Natural Language Generation with 🤗 Transformers | Exploring MT model saliency on the DivEMT corpus |
+| 6 | Fine-tuning and Efficient Modeling with 🤗 Transformers | - |
+| 7 | Final Project Progress Report | -       |
 
 Some notes:
 
-- The core contents are covered in the first few weeks of the course to kickstart your work. Exercise sessions are dropped from week 5 onwards to allow you to focus on the final project.
+- The core contents are covered in the first few weeks of the course to kickstart your work. Exercise sessions are dropped from week 6 onwards to allow you to focus on the final project.
 
-- Participation to the lab sessions is **highly encouraged**, as they offer you a chance to ask questions related to the midterm portfolio and/or the final projects.
-
-- The tutorial session for week 6 can be relevant to many projects and will be covered upon request.
+- Participation to the lab sessions is **highly encouraged**, as they cover fundamental notions for the assignment portfolios and the final projects. Instructors will be available to answer questions and provide guidance.
 
 ## Tools and Frameworks
 
@@ -35,15 +33,17 @@ Alternatively, it is possible to use the notebooks via the [Google Colab](https:
 
 - [Colab Quickstart](https://colab.research.google.com/notebooks/intro.ipynb)
 
-Since the lab session will introduce you to OSS libraries such as [spaCy](https://spacy.io/), [Scikit-learn](https://scikit-learn.org), [🤗 Transformers](https://huggingface.co/transformers/) and [🤗 Datasets](https://huggingface.co/docs/datasets/), most of the material is simply adapted from the official tutorials and docs. Here is a non-exhaustive list of the most relevant sources for additional reference:
+Since the lab session will introduce you to OSS libraries such as [spaCy](https://spacy.io/), [Stanza](https://stanfordnlp.github.io/stanza/), [Scikit-learn](https://scikit-learn.org), [🤗 Transformers](https://huggingface.co/transformers/) and [🤗 Datasets](https://huggingface.co/docs/datasets/), most of the first few sessions' contents are adapted from official tutorials and docs. Here is a non-exhaustive list of the most relevant sources for additional reference:
 
 - [Advanced NLP with spaCy](https://course.spacy.io/en)
+- [Stanza tutorials](https://stanfordnlp.github.io/stanza/tutorials.html)
 - [spaCy Linguistic Features](https://spacy.io/usage/linguistic-features)
 - [HuggingFace Course, Chapter 1](https://huggingface.co/course/chapter1/1)
 - [HuggingFace Transformers Docs](https://huggingface.co/docs/transformers/index)
 - [HuggingFace Datasets Docs](https://huggingface.co/docs/datasets/)
 - [Scikit-learn "Working with Text Data" Tutorial](https://scikit-learn.org/stable/tutorial/text_analytics/working_with_text_data.html#tutorial-setup)
 - [NLP class materials by Dirk Hovy](https://github.com/dirkhovy/NLPclass)
+- [HuggingFace "How to Generate" Tutorial](https://huggingface.co/blog/how-to-generate)
 
 The file `requirements.txt` in this repository contains the list of all the packages required to run the lab sessions. You can create a Python virtual environment (Python>=3.6) and install them using the following command:
 
@@ -61,25 +61,38 @@ For any troubleshooting, please consult the [FAQ](FAQ.md) before asking for help
 
 <table>
   <tr>
-    <td><img src="http://www.cs.rug.nl/~bisazza/fig/arianna-2020.jpg" alt="Arianna Bisazza" style="width:600px"/></td>
+    <td style="width:100px"><img src="http://www.cs.rug.nl/~bisazza/fig/arianna-2020.jpg" alt="Arianna Bisazza" style="width:800px"/></td>
       <td>
-        <a href="https://www.cs.rug.nl/~bisazza/"><b>Arianna Bisazza</b></a> is an Assistant Professor in Computational Linguistics and Natural Language Processing at the <a href="https://www.rug.nl/research/clcg/research/cl/">Computational Linguistics Group</a> of the University of Groningen. She is passionate about the statistical modeling of languages, particularly in a multilingual context, and her long-term goal is to design robust NLP algorithms that can adapt to the large variety of linguistic phenomena observed around the world. She is part of the Dutch consortium <a href="https://interpretingdl.github.io/">InDeep: Interpreting Deep Learning Models for Text and Sound</a>, leading the work package on interpretability for neural machine translation.
+        <a href="https://www.cs.rug.nl/~bisazza/"><b>Arianna Bisazza</b></a> is an Assistant Professor in Computational Linguistics and Natural Language Processing at the <a href="https://www.rug.nl/research/clcg/research/cl/">Computational Linguistics Group</a> of the University of Groningen. She is passionate about the study of human languages, how they differ from each other, and how they can be modeled by computational tools. Her primary interest is in the development of language technologies supporting a large variety of languages around the world. She is also interested in the new knowledge about that computational models can reveal about the nature of language.
       </td>
   </tr>
   <tr>
-    <td><img src="https://gsarti.com/authors/gsarti/avatar_hu02574c73d8d5cf0c41465216db38be2a_239118_250x250_fill_q90_lanczos_center.jpg" alt="Gabriele Sarti" style="width:600px"/></td>
+    <td style="width:100px"><img src="https://gsarti.com/authors/gsarti/avatar_hu02574c73d8d5cf0c41465216db38be2a_239118_250x250_fill_q90_lanczos_center.jpg" alt="Gabriele Sarti" style="width:800px"/></td>
     <td>
-      <a href="https://gsarti.com"><b>Gabriele Sarti</b></a> is a doctoral researcher at the <a href="https://www.rug.nl/research/clcg/research/cl/">Computational Linguistics Group</a> of the University of Groningen. He is part of the consortium <a href="https://interpretingdl.github.io/">InDeep</a>, working on interpretability for neural machine translation. His research focuses on interpretability for sequence-to-sequence NLP models, in particular from a user-centric perspective and by leveraging human behavioral signals.
+      <a href="https://gsarti.com"><b>Gabriele Sarti</b></a> is a PhD student at the <a href="https://www.rug.nl/research/clcg/research/cl/">Computational Linguistics Group</a> of the University of Groningen. He is part of the Dutch consortium <a href="https://interpretingdl.github.io/">InDeep</a>, working on interpretability for language generation and neural machine translation. Previously, he was a research scientist at <a href="https://www.aindo.com/">Aindo</a> and a research intern at Amazon Translate NYC. His research interests involve interpretability for NLP, human-AI interaction and the usage of behavioral information like eye-tracking patterns to improve language understanding systems.
     </td>
   </tr>
-  <tr>
-    <td><img src="https://avatars.githubusercontent.com/u/25927244?v=4" alt="Anjali Nair" style="width:600px"/></td>
+<tr>
+    <td style="width:100px"><img src="https://media.licdn.com/dms/image/C4D03AQHC30RRdIjJhQ/profile-displayphoto-shrink_400_400/0/1594219498972?e=1680739200&v=beta&t=4PdgVKwMUmzEIOFir7yHUfYWUJMRYETJYTEIFWGbRrQ" alt="Ludwig Sickert" style="width:800px"/></td>
     <td>
-      <a href="https://nl.linkedin.com/in/anjalinair012"><b>Anjali Nair</b></a> is a MSc candidate in AI at the University of Groningen.
+      <a href="https://www.linkedin.com/in/lsickert/"><b>Ludwig Sickert</b></a> is a MSc candidate in AI at the University of Groningen and a senior consultant in Cloud and AI technologies at IBM Netherlands. He attended the IK-NLP course in 2022 and is now working on interpreting formality in machine translation systems for his master thesis under the supervision of Gabriele and Arianna. He will serve as TA for the 2023 edition of the course.
     </td>
   </tr>
 </table>
 
 ## You see something wrong or missing?
 
-Please open as issue here on Github! This is the first year we are using these contents for the course and although most of them come from battle-tested online tutorials, we are always looking for feedback and suggestions.
+Please open as issue here on Github! This is the second year we are using these contents for the course and although most of them come from battle-tested online tutorials, we are always looking for feedback and suggestions.
+
+## Alumni
+
+**2022**
+
+<table>
+  <tr>
+    <td style="width:100px"><img src="https://avatars.githubusercontent.com/u/25927244?v=4" alt="Anjali Nair" style="width:800px"/></td>
+    <td>
+      <a href="https://nl.linkedin.com/in/anjalinair012"><b>Anjali Nair</b></a> is a MSc candidate in AI at the University of Groningen. She served as TA for the 2022 edition of the course.
+    </td>
+  </tr>
+</table>

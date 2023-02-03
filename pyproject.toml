@@ -1,26 +1,28 @@
 [tool.poetry]
 name = "ik-nlp-tutorials"
-version = "0.1.0"
-description = ""
+version = "2023.1"
+description = "Tutorials and Exercises for the NLP course at the University of Groningen"
 authors = [
     "Gabriele Sarti <g.sarti@rug.nl>",
     "Georg Groenendaal <georg.groenendaal@gmail.com>"
 ]
+license = "GPL-3.0"
 
-# The `transformers` version is pinned to 4.10 due to
-# simplet5 not working with newer versions as of now.
 [tool.poetry.dependencies]
-python = "^3.8"
+python = ">=3.8.1,<3.12"
 jupyterlab = "^3.2.9"
-transformers = "4.10"
-torch = "^1.10.2"
-datasets = "^1.18.3"
-sentence-transformers = "^2.1.0"
-scikit-learn = "^1.0.2"
-spacy = "^3.2.2"
-sentencepiece = "^0.1.96"
-thermostat-datasets = "^1.0.1"
-simplet5 = "^0.1.3"
+transformers = "^4.26"
+torch = "^1.13.1"
+datasets = "^2.9.0"
+sentence-transformers = "^2.2.2"
+scikit-learn = "^1.2.1"
+spacy = "^3.5.0"
+stanza = "^1.4.2"
+sentencepiece = "^0.1.97"
+thermostat-datasets = "^1.0.2.1"
+bitsandbytes = "^0.37.0"
+inseq = "^0.3.3"
+ipykernel = "^6.21.1"
 
 
 [tool.poetry.dev-dependencies]
