@@ -90,9 +90,9 @@ Please open as issue here on Github! This is the second year we are using these 
 
 <table>
   <tr>
-    <td style="width:100px"><img src="https://avatars.githubusercontent.com/u/25927244?v=4" alt="Anjali Nair" style="width:800px"/></td>
+    <td><img src="https://avatars.githubusercontent.com/u/25927244?v=4" alt="Anjali Nair" style="width:150px"/></td>
     <td>
-      <a href="https://nl.linkedin.com/in/anjalinair012"><b>Anjali Nair</b></a> is a MSc candidate in AI at the University of Groningen. She served as TA for the 2022 edition of the course.
+      <a href="https://nl.linkedin.com/in/anjalinair012"><b>Anjali Nair</b></a> is a MSc candidate in AI at the University of Groningen. She served as teaching assistant for the 2022 edition of the Natural Language Processing course.
     </td>
   </tr>
 </table>
