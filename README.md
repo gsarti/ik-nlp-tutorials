@@ -96,3 +96,5 @@ Please open as issue here on Github! This is the second year we are using these 
     </td>
   </tr>
 </table>
+
+We thank our past student Georg Groenendaal, Robin van der Noord and Ayça Avcı for their contributions in spotting errors in the course materials.
