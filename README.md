@@ -7,7 +7,7 @@ These lab sessions are designed to help you follow along with the contents prese
 The lab sessions will be a mix of tutorials and exercises. The **tutorials** will present modern frameworks and tools to implement advanced NLP analyses and pipelines. The **exercises** are designed to teach you the skills needed for final projects. Here is a brief overview of the schedule:
 
 | Week | Lab Tutorial                                                 | Lab Exercise |
-|------|------------------|--------------------------------------------------------------|--------------|
+|------|--------------------------------------------------------------|--------------|
 | 1 | · [Intro, Setup work environment and team creation](README.md) <br/> · Start [Intro to 🤗 Transformers](notebooks/W2T_Intro_Transformers_Datasets.ipynb) | -            |
 | 2 | [Intro to 🤗 Transformers and Datasets](notebooks/W2T_Intro_Transformers_Datasets.ipynb) | [🤗 Pipelines & Sentence Transformers for semantic search and QA](notebooks/W2E_Pipelines_Sentence_Transformers.ipynb) |
 | 3 | [Linguistic analysis with spaCy and Stanza](notebooks/W3T_Analysis_Spacy_Stanza.ipynb)     | [Training a BPE tokenizer and a lexicon-based transduction model](notebooks/W3E_BPE_Transduction.ipynb) | 
