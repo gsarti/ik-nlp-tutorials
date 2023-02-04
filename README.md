@@ -10,9 +10,9 @@ The lab sessions will be a mix of tutorials and exercises. The **tutorials** wil
 |------|--------------------------------------------------------------|--------------|
 | 1 | · [Intro, Setup work environment and team creation](README.md) <br/> · Start [Intro to 🤗 Transformers](notebooks/W2T_Intro_Transformers_Datasets.ipynb) | -            |
 | 2 | [Intro to 🤗 Transformers and Datasets](notebooks/W2T_Intro_Transformers_Datasets.ipynb) | [🤗 Pipelines & Sentence Transformers for semantic search and QA](notebooks/W2E_Pipelines_Sentence_Transformers.ipynb) |
-| 3 | [Linguistic analysis with spaCy and Stanza](notebooks/W3T_Analysis_Spacy_Stanza.ipynb)     | [Training a BPE tokenizer and a lexicon-based transduction model](notebooks/W3E_BPE_Transduction.ipynb) | 
-| 4 | · Intro to the Peregrine cluster <br/> · [Text tagging and dependency parsing with spaCy](notebooks/W4T_Tagging_Parsing.ipynb) | [Combining Textual and Non-textual Features in NLP Models](notebooks/W5E_NonTextual_Information.ipynb) |
-| 5 | Natural Language Generation with 🤗 Transformers | Exploring MT model saliency on the DivEMT corpus |
+| 3 | [Linguistic analysis with spaCy and Stanza](notebooks/W3T_Analysis_Spacy_Stanza.ipynb)     | [Training a BPE tokenizer and a lexicon-based transduction model](notebooks/W3E_BPE_Transduction.ipynb) |
+| 4 | · Intro to the Peregrine cluster <br/> · [Text tagging with spaCy and 🤗 Transformers](notebooks/W4T_Text_Tagging.ipynb) | [Combining Textual and Non-textual Features in NLP Models](notebooks/W4E_NonTextual_Information.ipynb) |
+| 5 | Natural Language Generation with 🤗 Transformers <br/> [Dependency parsing with spaCy](notebooks/W5T_Dependency_Parsing.ipynb) | Exploring MT model saliency on the DivEMT corpus |
 | 6 | Fine-tuning and Efficient Modeling with 🤗 Transformers | - |
 | 7 | Final Project Progress Report | -       |
 
@@ -53,7 +53,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-Make sure the virtual environment is activated before running Jupyter. If you are using Colab, simply run the cell at the beginning of each notebook to install the required packages. Refer to [Using a Python Virtual Environment](https://huggingface.co/course/chapter0/1#using-a-python-virtual-environment) for more details on how to create and activate a virtual environment.
+Make sure the virtual environment is activated before running Jupyter. If you are using Colab, simply run the cell at the beginning of each notebook to install the required packages. Refer to [Using a Python Virtual Environment](https://huggingface.co/course/chapter0/1#using-a-python-virtual-environment) for more details on how to create and activate a virtual environment. Alternatively, you can use [Poetry](https://python-poetry.org/docs/) to manage the dependencies.
 
 For any troubleshooting, please consult the [FAQ](FAQ.md) before asking for help. You are encouraged to contribute to it by adding your solutions!
 
@@ -82,7 +82,7 @@ For any troubleshooting, please consult the [FAQ](FAQ.md) before asking for help
 
 ## You see something wrong or missing?
 
-Please open as issue here on Github! This is the second year we are using these contents for the course and although most of them come from battle-tested online tutorials, we are always looking for feedback and suggestions.
+Please open as [issue](https://github.com/gsarti/ik-nlp-tutorials/issues) here on Github! This is the second year we are using these contents for the course and although most of them come from battle-tested online tutorials, we are always looking for feedback and suggestions.
 
 ## Alumni
 
@@ -97,4 +97,4 @@ Please open as issue here on Github! This is the second year we are using these 
   </tr>
 </table>
 
-We thank our past student Georg Groenendaal, Robin van der Noord and Ayça Avcı for their contributions in spotting errors in the course materials.
+We thank our past students Georg Groenendaal, Robin van der Noord and Ayça Avcı for their contributions in spotting errors in the course materials.
