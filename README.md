@@ -10,15 +10,17 @@ The lab sessions will be a mix of tutorials and exercises. The **tutorials** wil
 |------|--------------------------------------------------------------|--------------|
 | 1 | · [Intro, Setup work environment and team creation](README.md) <br/> · Start [Intro to 🤗 Transformers](notebooks/W2T_Intro_Transformers_Datasets.ipynb) | -            |
 | 2 | [Intro to 🤗 Transformers and Datasets](notebooks/W2T_Intro_Transformers_Datasets.ipynb) | [🤗 Pipelines & Sentence Transformers for semantic search and QA](notebooks/W2E_Pipelines_Sentence_Transformers.ipynb) |
-| 3 | [Linguistic analysis with spaCy and Stanza](notebooks/W3T_Analysis_Spacy_Stanza.ipynb)     | [Training a BPE tokenizer and a lexicon-based transduction model](notebooks/W3E_BPE_Transduction.ipynb) |
-| 4 | · Intro to the Peregrine cluster <br/> · [Text tagging with spaCy and 🤗 Transformers](notebooks/W4T_Text_Tagging.ipynb) | [Combining Textual and Non-textual Features in NLP Models](notebooks/W4E_NonTextual_Information.ipynb) |
-| 5 | Natural Language Generation with 🤗 Transformers <br/> [Dependency parsing with spaCy](notebooks/W5T_Dependency_Parsing.ipynb) | Exploring MT model saliency on the DivEMT corpus |
-| 6 | Fine-tuning and Efficient Modeling with 🤗 Transformers | - |
+| 3 | [Linguistic analysis with spaCy and Stanza](notebooks/W3T_Analysis_Spacy_Stanza.ipynb)     | [Training a BPE tokenizer and a lexicon-based transduction model](notebooks/W3E_BPE_Transduction.ipynb) | 
+| 4 | · Intro to the Peregrine cluster <br/> · Text tagging and dependency parsing with spaCy **TBD** | Combining Textual and Non-textual Features in NLP Models **TBD** |
+| 5 | Natural Language Generation with 🤗 Transformers **TBD** | Exploring MT model saliency on the DivEMT corpus **TBD** |
+| 6 | Fine-tuning and Efficient Modeling with 🤗 Transformers **TBD** | - |
 | 7 | Final Project Progress Report | -       |
 
 Some notes:
 
 - The core contents are covered in the first few weeks of the course to kickstart your work. Exercise sessions are dropped from week 6 onwards to allow you to focus on the final project.
+
+- The current notebooks for W4 and W5 are outdated and will be updated according to the schedule above.
 
 - Participation to the lab sessions is **highly encouraged**, as they cover fundamental notions for the assignment portfolios and the final projects. Instructors will be available to answer questions and provide guidance.
 
