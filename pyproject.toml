@@ -23,6 +23,8 @@ thermostat-datasets = "^1.0.2.1"
 bitsandbytes = "^0.37.0"
 inseq = "^0.3.3"
 ipykernel = "^6.21.1"
+sacremoses = "^0.0.53"
+ipywidgets = "^8.0.4"
 
 
 [tool.poetry.dev-dependencies]

@@ -1,3 +1,13 @@
+# Tutorial ignores
+notebooks/*
+!notebooks/W2E_Pipelines_Sentence_Transformers.ipynb
+!notebooks/W2T_Intro_Transformers_Datasets.ipynb
+!notebooks/W3E_BPE_Transduction.ipynb
+!notebooks/W3T_Analysis_Spacy_Stanza.ipynb
+!notebooks/W4E_NonTextual_Information.ipynb
+!notebooks/W4T_Text_Tagging.ipynb
+!notebooks/W5T_Dependency_Parsing.ipynb
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
