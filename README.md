@@ -46,6 +46,8 @@ Since the lab session will introduce you to OSS libraries such as [spaCy](https:
 - [Scikit-learn "Working with Text Data" Tutorial](https://scikit-learn.org/stable/tutorial/text_analytics/working_with_text_data.html#tutorial-setup)
 - [NLP class materials by Dirk Hovy](https://github.com/dirkhovy/NLPclass)
 - [HuggingFace "How to Generate" Tutorial](https://huggingface.co/blog/how-to-generate)
+- [A Gentle Introduction to 8-bit Matrix Multiplication for transformers at scale using Hugging Face Transformers, Accelerate and bitsandbytes](https://huggingface.co/blog/hf-bitsandbytes-integration)
+- [HuggingFace PEFT: Parameter-Efficient Fine-Tuning of Billion-Scale Models on Low-Resource Hardware](https://huggingface.co/blog/peft)
 
 The file `requirements.txt` in this repository contains the list of all the packages required to run the lab sessions. You can create a Python virtual environment (Python>=3.6) and install them using the following command:
 
