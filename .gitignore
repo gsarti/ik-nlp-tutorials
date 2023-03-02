@@ -6,7 +6,8 @@ notebooks/*
 !notebooks/W3T_Analysis_Spacy_Stanza.ipynb
 !notebooks/W4E_NonTextual_Information.ipynb
 !notebooks/W4T_Tagging_Parsing.ipynb
-!notebooks/W5T_Dependency_Parsing.ipynb
+!notebooks/W5T_Transformers_Generation.ipynb
+!notebooks/W5E_Inseq_Analysis.ipynb
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

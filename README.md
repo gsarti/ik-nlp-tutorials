@@ -11,7 +11,7 @@ The lab sessions will be a mix of tutorials and exercises. The **tutorials** wil
 | 1 | · [Intro, Setup work environment and team creation](README.md) <br/> · Start [Intro to 🤗 Transformers](notebooks/W2T_Intro_Transformers_Datasets.ipynb) | -            |
 | 2 | [Intro to 🤗 Transformers and Datasets](notebooks/W2T_Intro_Transformers_Datasets.ipynb) | [🤗 Pipelines & Sentence Transformers for semantic search and QA](notebooks/W2E_Pipelines_Sentence_Transformers.ipynb) |
 | 3 | [Linguistic analysis with spaCy and Stanza](notebooks/W3T_Analysis_Spacy_Stanza.ipynb)     | [Training a BPE tokenizer and a lexicon-based transduction model](notebooks/W3E_BPE_Transduction.ipynb) | 
-| 4 | · Intro to the Peregrine cluster <br/> · [Text tagging and dependency parsing with spaCy and Transformers](notebooks/W4T_Tagging_Parsing.ipynb) | [Combining Textual and Non-textual Features in NLP Models](notebooks/W4E_NonTextual_Information.ipynb) |
+| 4 | · [Intro to the Peregrine cluster](Peregrine.md) <br/> · [Text tagging and dependency parsing with spaCy and Transformers](notebooks/W4T_Tagging_Parsing.ipynb) | [Combining Textual and Non-textual Features in NLP Models](notebooks/W4E_NonTextual_Information.ipynb) |
 | 5 | Natural Language Generation with 🤗 Transformers **TBD** | Exploring MT model saliency on the DivEMT corpus **TBD** |
 | 6 | Fine-tuning and Efficient Modeling with 🤗 Transformers **TBD** | - |
 | 7 | Final Project Progress Report | -       |
