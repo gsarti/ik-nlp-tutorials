@@ -85,7 +85,7 @@ For any troubleshooting, please consult the [FAQ](FAQ.md) before asking for help
     <tr>
     <td style="width:100px"><img src="https://media.licdn.com/dms/image/C4E03AQGvfhh_vMI9bQ/profile-displayphoto-shrink_400_400/0/1649141533385?e=1710979200&v=beta&t=wm9DGFnP-951p5TFZ455gyGLY7fPrEST9fAFNBEFSaA" alt="Leonidas Zotos" style="width:800px"/></td>
     <td>
-      <a href="https://www.linkedin.com/in/leonidas-zotos"><b>Leonidas Zotos</b></a> is a PhD student in the <a href="https://www.rug.nl/research/clcg/research/cl/">Computational Linguistics Group</a> of the University of Groningen.
+      <a href="https://www.linkedin.com/in/leonidas-zotos"><b>Leonidas Zotos</b></a> is a PhD student in the <a href="https://www.rug.nl/research/clcg/research/cl/">Computational Linguistics Group</a> of the University of Groningen. He works on the intersection between language modelling and human learning with a focus on multifaceted event understanding. The current focus is on multiple choice assessment methods and how these tests can be better designed to improve long term retention.
     </td>
   </tr>
 <tr>
