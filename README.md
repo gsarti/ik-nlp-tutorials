@@ -20,8 +20,6 @@ Some notes:
 
 - The core contents are covered in the first few weeks of the course to kickstart your work. Exercise sessions are dropped from week 6 onwards to allow you to focus on the final project.
 
-- The current notebooks for W4 and W5 are outdated and will be updated according to the schedule above.
-
 - Participation to the lab sessions is **highly encouraged**, as they cover fundamental notions for the assignment portfolios and the final projects. Instructors will be available to answer questions and provide guidance.
 
 ## Tools and Frameworks
