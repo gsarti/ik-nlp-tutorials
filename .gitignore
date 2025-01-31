@@ -3,7 +3,7 @@ notebooks/*
 !notebooks/W2E_Pipelines_Sentence_Transformers.ipynb
 !notebooks/W2T_Intro_Transformers_Datasets.ipynb
 !notebooks/W3E_BPE_Transduction.ipynb
-!notebooks/W3T_Linguistic_Analysis.ipynb
+!notebooks/W4T_Linguistic_Analysis.ipynb
 !notebooks/W4E_NonTextual_Information.ipynb
 !notebooks/W5T_Transformers_Finetune.ipynb
 !notebooks/W5E_Inseq_Analysis.ipynb
