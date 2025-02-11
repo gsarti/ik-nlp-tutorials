@@ -10,10 +10,10 @@ The lab sessions will be a mix of tutorials and exercises. The **tutorials** wil
 |------|--------------------------------------------------------------|--------------|
 | 1 | · [Intro, Setup work environment and team creation](README.md) <br/> · Start [Intro to 🤗 Transformers](notebooks/W2T_Intro_Transformers_Datasets.ipynb) | -            |
 | 2 | [Intro to 🤗 Transformers and Datasets](notebooks/W2T_Intro_Transformers_Datasets.ipynb) | [🤗 Pipelines & Sentence Transformers for semantic search and QA](notebooks/W2E_Pipelines_Sentence_Transformers.ipynb) |
-| 3 | [Linguistic analysis with spaCy and Stanza](notebooks/W3T_Analysis_Spacy_Stanza.ipynb)     | [Training a BPE tokenizer and a lexicon-based transduction model](notebooks/W3E_BPE_Transduction.ipynb) | 
-| 4 | · [Intro to the Hábrók cluster](Habrok.md) <br/> · [Text tagging and dependency parsing with spaCy and Transformers](notebooks/W4T_Tagging_Parsing.ipynb) | [Combining Textual and Non-textual Features in NLP Models](notebooks/W4E_NonTextual_Information.ipynb) |
-| 5 | [Fine-tuning and Inference with 🤗 Transformers](notebooks/W5T_Transformers_Finetune.ipynb) | [Analyzing language generation models with Inseq 🐛](notebooks/W5E_Inseq_Analysis.ipynb) |
-| 6 | [Natural Language Generation with 🤗 Transformers](notebooks/W6T_Transformers_Generation.ipynb) | - |
+| 3 | [Natural Language Generation with 🤗 Transformers](notebooks/W3T_Transformers_Generation.ipynb) | [Training a BPE tokenizer and a lexicon-based transduction model](notebooks/W3E_BPE_Transduction.ipynb) |
+| 4 | [Linguistic analysis](notebooks/W4T_Linguistic_Analysis.ipynb)     | [Combining Textual and Non-textual Features in NLP Models](notebooks/W4E_NonTextual_Information.ipynb) | 
+| 5 | · [Intro to the Hábrók cluster](Habrok.md) <br/> · [Fine-tuning and Inference with 🤗 Transformers](notebooks/W5T_Transformers_Finetune.ipynb) | [Analyzing language generation models with Inseq 🐛](notebooks/W5E_Inseq_Analysis.ipynb) |
+| 6 | [Advanced Prompting and Generation with 🤗 Transformers](notebooks/W6T_Advanced_Prompting_Generation.ipynb) | - |
 | 7 | Final Project Progress Report | -       |
 
 Some notes:
@@ -81,9 +81,9 @@ For any troubleshooting, please consult the [FAQ](FAQ.md) before asking for help
     </td>
   </tr>
     <tr>
-    <td style="width:100px"><img src="https://media.licdn.com/dms/image/C4E03AQGvfhh_vMI9bQ/profile-displayphoto-shrink_400_400/0/1649141533385?e=1710979200&v=beta&t=wm9DGFnP-951p5TFZ455gyGLY7fPrEST9fAFNBEFSaA" alt="Leonidas Zotos" style="width:800px"/></td>
+    <td style="width:100px"><img src="https://www.rug.nl/staff/l.zotos/profilerugpage.jpg" alt="Leo Zotos" style="width:800px"/></td>
     <td>
-      <a href="https://www.linkedin.com/in/leonidas-zotos"><b>Leonidas Zotos</b></a> is a PhD student in the <a href="https://www.rug.nl/research/clcg/research/cl/">Computational Linguistics Group</a> of the University of Groningen. He works on the intersection between language modelling and human learning with a focus on multifaceted event understanding. The current focus is on multiple choice assessment methods and how these tests can be better designed to improve long term retention.
+      <a href="https://www.linkedin.com/in/leonidas-zotos"><b>Leo Zotos</b></a> is a PhD student in the <a href="https://www.rug.nl/research/clcg/research/cl/">Computational Linguistics Group</a> of the University of Groningen. He works on the intersection between language modelling and human learning with a focus on multifaceted event understanding. The current focus is on multiple choice assessment methods and how these tests can be better designed to improve long term retention.
     </td>
   </tr>
 <tr>

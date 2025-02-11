@@ -3,11 +3,13 @@ notebooks/*
 !notebooks/W2E_Pipelines_Sentence_Transformers.ipynb
 !notebooks/W2T_Intro_Transformers_Datasets.ipynb
 !notebooks/W3E_BPE_Transduction.ipynb
-!notebooks/W4T_Linguistic_Analysis.ipynb
+!notebooks/W3T_Transformers_Generation.ipynb
 !notebooks/W4E_NonTextual_Information.ipynb
-!notebooks/W5T_Transformers_Finetune.ipynb
+!notebooks/W4T_Linguistic_Analysis.ipynb
 !notebooks/W5E_Inseq_Analysis.ipynb
-!notebooks/W6T_Transformers_Generation.ipynb
+!notebooks/W5T_Transformers_Finetune.ipynb
+!notebooks/W6T_Advanced_Prompting_Generation.ipynb
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
