@@ -10,7 +10,7 @@ The lab sessions will be a mix of tutorials and exercises. The **tutorials** wil
 |------|--------------------------------------------------------------|--------------|
 | 1 | · [Intro, Setup work environment and team creation](README.md) <br/> · Start [Intro to 🤗 Transformers](notebooks/W2T_Intro_Transformers_Datasets.ipynb) | -            |
 | 2 | [Intro to 🤗 Transformers and Datasets](notebooks/W2T_Intro_Transformers_Datasets.ipynb) | [🤗 Pipelines & Sentence Transformers for semantic search and QA](notebooks/W2E_Pipelines_Sentence_Transformers.ipynb) |
-| 3 | [Natural Language Generation with 🤗 Transformers](notebooks/W3T_Transformers_Generation.ipynb) | [Training a BPE tokenizer and a lexicon-based transduction model](notebooks/W3E_BPE_Transduction.ipynb) |
+| 3 | [Natural Language Generation with 🤗 Transformers](notebooks/W3T_Transformers_Generation.ipynb) | [Training a BPE tokenizer](notebooks/W3E_BPE_Transduction.ipynb) |
 | 4 | [Linguistic analysis](notebooks/W4T_Linguistic_Analysis.ipynb)     | [Combining Textual and Non-textual Features in NLP Models](notebooks/W4E_NonTextual_Information.ipynb) | 
 | 5 | · [Intro to the Hábrók cluster](Habrok.md) <br/> · [Fine-tuning and Inference with 🤗 Transformers](notebooks/W5T_Transformers_Finetune.ipynb) | [Analyzing language generation models with Inseq 🐛](notebooks/W5E_Inseq_Analysis.ipynb) |
 | 6 | [Advanced Prompting and Generation with 🤗 Transformers](notebooks/W6T_Advanced_Prompting_Generation.ipynb) | - |
